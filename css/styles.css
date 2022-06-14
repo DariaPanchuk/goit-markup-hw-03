@@ -1,0 +1,234 @@
+:root {
+    --page-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --btn-hover-focus: #188CE8;
+    --footer-color: #2F303A;
+    --accent-bg-color: #F5F4FA;
+    --primary-bg-color: #FFFFFF;
+    --header-logo-color: #000000;
+}
+
+
+/* Common styles */
+.page {
+    font-family: var(--page-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-text-color);
+    
+    background-color: var(--primary-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.btn {
+    font-family: var(--page-font);
+    cursor: pointer;
+    border-style: none;
+}
+
+/* Logo */
+.header-logo,
+.footer-logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.header-logo-dark {
+    color: var(--header-logo-color);
+}
+
+.footer-logo-bright {
+    color: var(--primary-bg-color);
+}
+
+/* Buttons */
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-bg-color); 
+    
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--btn-hover-focus);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-button {
+    font-family: var(--page-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--accent-bg-color);
+}
+
+.current-btn,
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+/* Header */
+.nav-lis-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.current-link,
+.nav-lis-item:hover,
+.nav-lis-item:focus {
+    color: var(--accent-color);
+}
+
+.header-contact {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--footer-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-bg-color);
+}
+
+/* Benefits */
+.benefits-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.benefits-text {
+    letter-spacing: 0.03em;
+}
+
+/* What do and Team*/
+.what-do-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--accent-bg-color);
+}
+
+.team-card {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background-color: var(--primary-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--title-text-color);
+}
+
+/* Portfolio */
+.works-item {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    border: 1px solid #EEEEEE;
+}
+
+.works-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.works-item-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer-location {
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
+}
+
+.footer-contact {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
